@@ -14,6 +14,7 @@ The churn dataset consisted of anonymized customer information with features des
 3. Account History: Tenure, payment history, usage patterns, complaints, billing data, etc.
 4. Customer Interaction Data: Response time to support queries, time since last support request, engagement rates, etc.
 5. The target variable was a binary indicator:
+   
 1 (churn): The customer is likely to stop using the service.
 0 (no churn): The customer is likely to remain with the service.
 
