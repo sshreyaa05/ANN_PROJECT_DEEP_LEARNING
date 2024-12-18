@@ -22,6 +22,7 @@ The churn dataset consisted of anonymized customer information with features des
 ## Insights:
 1. Credit Score and Geography were strong predictors of churn risk.
 2. Behavioral patterns and demographic variables significantly impacted churn predictions.
-
+## Conclusion:
+The ANN model, with 80% test accuracy, successfully predicted customer churn by leveraging key features like Credit Score, Geography, Gender, and behavioral insights. This demonstrates the value of machine learning for proactive customer retention strategies.
 
 
