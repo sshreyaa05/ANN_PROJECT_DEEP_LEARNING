@@ -9,13 +9,19 @@ The goal of this project was to:
 4. Evaluate the model performance on the test set to ensure accuracy meets business and statistical goals.
 ## Dataset Overview
 The churn dataset consisted of anonymized customer information with features describing:
-1. Customer Demographics: Age, gender, income group, location, etc.
-2. Service Usage Data: Frequency of service usage, features used, duration of usage, etc.
-3. Account History: Tenure, payment history, usage patterns, complaints, billing data, etc.
-4. Customer Interaction Data: Response time to support queries, time since last support request, engagement rates, etc.
+1. Credit Score: Indicator of financial stability.
+2. Geography: Categorical feature representing location.
+3. Gender: Categorical feature showing demographic patterns.
+4. Other Relevant Factors: Derived behavioral features related to customer usage patterns.
 5. The target variable was a binary indicator:
    
 1 (churn): The customer is likely to stop using the service.
+
 0 (no churn): The customer is likely to remain with the service.
+
+## Insights:
+1. Credit Score and Geography were strong predictors of churn risk.
+2. Behavioral patterns and demographic variables significantly impacted churn predictions.
+
 
 
